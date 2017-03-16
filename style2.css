@@ -1,0 +1,16 @@
+#numero1, #numero2, #numero3 {
+	display: inline-block;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+/*p, img {
+	display: inline-block;
+}*/
+
+p {
+	display: inline-block;
+}
