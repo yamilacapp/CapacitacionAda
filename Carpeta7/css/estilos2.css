@@ -1,0 +1,62 @@
+h1 {
+	font-size: 30px;
+	color: red;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+	color: red;
+	font-size: 30px;
+}
+
+body 
+{
+	background-color: black;
+}
+
+p {
+	color: red;
+	width: 400px;
+	height: 100px;
+}
+
+.seccion {
+	display: inline-block;
+	height: 500px;
+   }
+
+.seccion:hover {
+	background-color: pink;
+}
+
+img {
+	margin: 0 20px;
+	height: 200px;
+	width: 100px;
+}
+
+.foto1 {
+	width: 150px;
+}
+
+.foto3 {
+	width: 300px;
+}
+
+.seccion-segundo {
+	background-color: #ff03aa;
+}
+
+button {
+	padding: 10px;
+	position: relative;
+	left: 150px;
+	bottom: 10px;
+}
+/*.segundo {
+	background-color: yellow;
+}*/
+
