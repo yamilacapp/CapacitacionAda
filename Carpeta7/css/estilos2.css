@@ -19,17 +19,29 @@ body
 
 p {
 	color: red;
+	overflow: hidden;
 	width: 400px;
 	height: 100px;
+	z-index: 5;
+	margin: 20px 0px 20px 0px;
+}
+
+p:hover {
+	overflow: visible;
+	background-color: pink;
+	z-index: 5;
 }
 
 .seccion {
 	display: inline-block;
+	/*float: left;*/
 	height: 500px;
+	/*overflow: hidden;*/
    }
 
 .seccion:hover {
 	background-color: pink;
+	
 }
 
 img {
@@ -55,6 +67,11 @@ button {
 	position: relative;
 	left: 150px;
 	bottom: 10px;
+	z-index: 2;
+}
+
+form {
+	z-index: 1;
 }
 /*.segundo {
 	background-color: yellow;
