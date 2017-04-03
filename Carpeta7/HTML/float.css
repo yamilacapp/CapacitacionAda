@@ -1,0 +1,53 @@
+* {
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.contenedor {
+	border: 2px solid blue;
+}
+
+.segundo {
+
+	width: 500px;
+	height: 300px;
+	margin-top: 150px;
+	background-color: cyan;
+
+
+}
+
+.flotante {
+    margin: 20px;
+	width: 350px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+	display: inline-block;
+}
+
+.select {
+
+	margin-left: : 100px;
+}
+
+.diganos {
+
+margin-bottom: 25px;
+}
+
+.conocer {
+
+	display: inline-block;
+}
+
+input {
+	
+}
+
+label {
+
+	background-color: cyan;
+}

@@ -3,18 +3,38 @@
 <title>Vinos Artesanales</title>
 <meta charset="utf-8">
 <link href="css/estilos2.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
 </head>
 <body>
-<h1>Elaboracion de vinos artesanales</h1>
-<!-- contenedor de div-->
+<div class="paginacion">
+<div class="titulo">
+<h1>Bodegas Antonio</h1>
+<h2>Elaboracion de vinos artesanales</h2>
+</div>
+<div class="barra"></div>
+<div class="menu">
+<div class="submenu">
+<ul>
+<li>Home</li>
+<li>Historia</li>
+<li>Sucursales</li>
+<li><a href="tabla.html"> Productos</a></li>
+<li>Compras</li>
+<li>Contactos</li>
+</ul>
+</div>
+
+<div></div>
+</div>
 <div class="modulo1">
 <div class="seccion">
 	<h2>ALMUDES</h2>
 	<img src="imagenes/vino1.jpg" title="ALMUDES" alt="Vino ALMUDES" class="foto1">
-	<p>5 Almudes Tempranillo es un vino elaborado a partir de la selección del viñedo de más edad de Tempranillo de la Bodega. Es vino joven, fresco y agradable.<a href="https://www.vinoscutanda.com/es/vinos-ribera-del-jucar/3299-5-almudes-crianza.html" target="_blanck"> +MORE </a></p> 
+	<p>5 Almudes Tempranillo es un vino elaborado a partir de la selección del viñedo de más edad de Tempranillo de la Bodega. Es vino joven, fresco y agradable.<a href="tabla.html"> +MORE </a></p> 
 	
-	<form><input type="text"  placeholder="Nombre:"> </form>
+	<form ><input type="text"  placeholder="Nombre:"> </form>
 	<button> Comprar </button>
+	<a>Leer Mas.</a>
 </div>
 
 <div class="seccion seccion-segundo">
@@ -24,6 +44,7 @@
 
 <form><input type="text"  placeholder="Nombre:"> </form>
 <button> Comprar </button>
+<a>Leer Mas.</a>
 </div>
 <div class="seccion">
 	<h2>FINCA ROJA</h2>
@@ -35,8 +56,8 @@ En nariz se presentan notas de frutas acomplejadas con su paso en barrica.
 Boca suave y voluminosa con un final largo y placentero.
 <a href="http://www.ar.all.biz/vino-tinto-finca-roja-corte-patagnico-g20234#.WM_dw2819dg" target="_blanck"> +MORE </a></p>
 <form> <input type="text"  placeholder="Nombre:"> </form>
-<button> Comprar </button>
-
+<button class="comprar"> Comprar </button>
+<a>Leer Mas.</a>
 </div>
 <div class="seccion  seccion-segundo ">
 	<h2>ALMUDES</h2>
@@ -45,6 +66,7 @@ Boca suave y voluminosa con un final largo y placentero.
 	
 	<form><input type="text"  placeholder="Nombre:"> </form>
 	<button> Comprar </button>
+	<a>Leer Mas.</a>
 </div>
 
 <div class="seccion">
@@ -54,6 +76,7 @@ Boca suave y voluminosa con un final largo y placentero.
 
 <form><input type="text"  placeholder="Nombre:"> </form>
 <button> Comprar </button>
+<a>Leer Mas.</a>
 </div>
 <div class="seccion   seccion-segundo">
 	<h2>FINCA ROJA</h2>
@@ -66,10 +89,28 @@ Boca suave y voluminosa con un final largo y placentero.
 <a href="http://www.ar.all.biz/vino-tinto-finca-roja-corte-patagnico-g20234#.WM_dw2819dg" target="_blanck"> +MORE </a></p>
 <form> <input type="text"  placeholder="Nombre:"> </form>
 <button> Comprar </button>
-
+<a>Leer Mas.</a>
 </div>
 
 
+</div>
+<div class="footer">
+
+	<form class="form" name="contacto" action="yamila_capp@hotmail.com" method="post">
+	<label>Dejanos tu comentario:</label><br>
+        <input name="nombre" placeholder="Nombre:" type="text" maxlength="20"><br>
+        <input name="Asunto" placeholder="Asunto" type="text" maxlenght="20"><br>
+        <textarea class="text" name="comentario" cols="8" rows="4">Comentario:</textarea><br>
+        <input type="button" name="enviar" value="Enviar" class="boton">
+	</form>
+
+<div class="marca">
+<img src="imagenes/logo.jpg" class="logo2">
+<a><img src="imagenes/face.png" class="logo"></a>
+<a><img src="imagenes/twit.jpg" class="logo"></a>
+
+</div>
+</div>
 </div>
 </body>
 </html>

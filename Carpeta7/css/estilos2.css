@@ -1,20 +1,46 @@
+* {
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face { font-family: "bubblegum"; src: url('BubblegumSans-Regular.otf'); }
+@font-face { font-family: "Just Gotta Smile"; src: url('Just Gotta Smile.ttf'); }
+@font-face { font-family: "Alef-Regular"; src: url('Alef-Regular.ttf'); }
+
 h1 {
-	font-size: 30px;
-	color: red;
-    font-family: verdana, sans-serif;
-    text-align: center;
+	font-size: 70px;
+	color: black;
+    text-align: left;
     font-style: italic;
-    text-decoration: underline;
+   
 }
 
 h2 {
 	color: red;
 	font-size: 30px;
+	text-align: left;
+	background-color: 
 }
 
 body 
 {
 	background-color: black;
+	height: 2000px;
+	font-family:'Spirax', cursive, arial;
+}
+
+.barra {
+
+ width: 100%;
+ height: 25px;
+ background-color: pink;
+}
+
+.paginacion {
+	height: 100%;
+	width: 100%;
+	position: relative;
 }
 
 p {
@@ -23,7 +49,7 @@ p {
 	width: 400px;
 	height: 100px;
 	z-index: 5;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 10px 0px;
 }
 
 p:hover {
@@ -64,16 +90,255 @@ img {
 
 button {
 	padding: 10px;
-	position: relative;
-	left: 150px;
-	bottom: 10px;
+	margin-left: 25px;
+	margin-top: 10px;
 	z-index: 2;
 }
 
 form {
 	z-index: 1;
+	margin: 0;
 }
 /*.segundo {
 	background-color: yellow;
 }*/
 
+.footer {
+	background-color: pink;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	bottom: 0;
+	/*padding-top: 5px;*/
+}
+0
+.modulo1 {
+
+    width: 100%;
+    border: 2px solid yellow;
+    margin: auto;
+	margin-bottom: 350px;
+	background-color: yellow;
+
+}
+
+
+
+.form {
+	margin-left: 10px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.marca {
+	display: inline-block;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
+
+.boton {
+	margin-left: 25px;
+	padding: 10px;
+}
+
+input {
+	margin: 5px;
+}
+
+.text {
+	width: 200px;
+	height: 80px
+}
+
+label {
+	margin-top: 15px;
+}
+
+.menu {
+	color: blue;
+	height: 100px;
+	width: 100%;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background: url("../imagenes/guarda1.jpg") repeat;
+
+}
+
+.titulo {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 0;
+	background-color: orange;
+	background:#8ba987 url("../imagenes/fondo1.jpg") no-repeat center center;
+	background-size: 100% 100%
+
+}
+
+li {
+
+	display: inline;
+	margin: 0 50px;
+	margin-top: 15px;
+	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+	border: 1px solid red;
+	border-radius: 15%;
+	padding: 20px;
+	color: black;
+
+}
+
+ul {
+    
+	margin: 0px auto;
+}
+
+.submenu {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+table {
+
+	margin: auto;
+	font-family: verdana, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	
+
+}
+
+caption {
+
+	background-color: pink;
+	
+	font-weight: bold;
+	font-style: italic;
+	border: 1px solid red;
+}
+
+tr, th, td {
+
+	border: 1px solid red;
+}
+
+
+.td1 {
+
+	background-color: black;
+	color: white;
+	
+}
+
+.td2 {
+	background-color: #ff03aa;
+	
+}
+
+
+@media (max-width: 400px){
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+
+	height: 2000px;
+}	
+
+
+.titulo {
+	margin-bottom: 10px;
+
+}
+
+.seccion {
+	display: block;
+	height: 250px;
+
+}
+
+p {
+	display: none;
+}
+
+form {
+	display: none;
+}
+
+.form {
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+
+
+.marca {
+     display: inline;
+	float:right;
+	margin-right: 0px;
+}
+
+button {
+    margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+img {
+
+	max-width: 35%;
+}
+
+a {
+	display: inline;
+	margin-top: 20px;
+	background-color: violet;
+}
+
+.comprar {
+	margin: auto;
+	vertical-align: center;
+}
+
+.menu {
+	display: none;
+
+}
+
+.footer {
+
+   margin:0;
+}
+
+.modulo1 {
+ 
+}
+
+
+}
+
+@media (max-width: 500px) and (orientation: landscape) {
+
+  .seccion {
+  	display: inline-block;
+  	max-width: 45%;
+  	overflow: hidden;
+  	margin-left: 15px;
+  }
+
+  .menu {
+  	display: none;
+  }
+
+p {
+
+}
+ 
+}
