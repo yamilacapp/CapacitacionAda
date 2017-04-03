@@ -3,36 +3,40 @@
 <title>Formulario</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="formulario.css" rel="stylesheet" type="text/css" media="screen">
+<link href="formulario2.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
 <h1> Cosa de Locos!!  Ofertas increibles TODAS LAS SEMANAS!<img src="carrito3.png"><img src="carrito3.png" class="foto"><img src="carrito3.png" class="foto"></h1>
 <h2 id="subtitle"> Y además imperdibles descuentos!!!</h2>
 <h2>Complete los formularios con sus datos y el de un amigo para recibir nuestro suplemento semanal <span>GRATIS!</span></h2>
 
-<form>
+<form name="suscripcion" action="#" method="post">
 <table>
 <tr>
-<th><label>Nombre</label></th>
-<th><input type="text"></th>
-<th><label>Apellido</label></th>
-<th><input type="text"></th>
+<th class="label"><label for="Nombre">Nombre:</label></th>
+<th><input name="Nombre"  type="text"></th>
+<th class="label"><label for="Apellido">Apellido:</label></th>
+<th><input name="Apellido"  type="text"></th>
 </tr>
 <tr>
-<td><label>Telefono Fijo</label></td>
-<td><input></td>
-<td><label>Telefono Movil</label></td>
-<td><input></td>
+<td class="label"><label for="Telefono Fijo">Telefono Fijo:</label></td>
+<td><input name="Telefono Fijo"  type="text"></td>
+<td class="label"><label for="Telefono Movil">Telefono Movil:</label></td>
+<td><input name="Telefono Movil"  type="text"></td>
 </tr>
 <tr>
-<td><label>Direccion></label></td>
-<td><input></td>
+<td class="label"><label for="Direccion">Direccion:</label></td>
+<td class="direction" colspan="3"><input name="Direccion" type="text"></td>
+
 </tr>
-<tr><td><label>Ingrese comentario</label><textarea></textarea></td>
+<tr><td class="label"><label>Ingrese comentario:</label></td>
+<td colspan="3" class="textarea"><textarea name="mensaje" ></textarea></td>
 </tr>
+<tr><td colspan="4" id="button"><label>***Con tablas es mucho mas facil!!***</label><input type="button" value="enviar"></td></tr>
 
 </table>
 </form>
+
 <form>
 <div class="container2">
 <div class="bloque">

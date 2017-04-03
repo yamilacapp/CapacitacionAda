@@ -42,11 +42,19 @@ h2 {
 	background-color: orange;
 	font-size: 30px;
 }
-/*-- Formulario Numero 1 --*/
 
+table {
+
+	border: 2px solid blue;
+	background-color: yellow;
+
+}
+
+
+/*-- Formulario Numero 1 --*/
+/*
 .container {
 	background-color: pink;
-	border: 2px solid red;
     width: 600px;
     height: 350px;
     padding-top: 10px;
@@ -99,13 +107,12 @@ margin-top: 20px;
 margin-left: 40%;
 padding: 10px;
 }
-
+*/
 
 /* --Formulario Numero 2 --*/ 
 
 .container2 {
 background-color: pink;
-	border: 2px solid red;
 	height: 300px;
 	width: 600px;
 	padding: 20px;
