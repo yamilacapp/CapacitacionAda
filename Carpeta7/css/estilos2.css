@@ -119,6 +119,7 @@ form {
     margin: auto;
 	margin-bottom: 350px;
 	background-color: yellow;
+	display: flex;
 
 }
 
